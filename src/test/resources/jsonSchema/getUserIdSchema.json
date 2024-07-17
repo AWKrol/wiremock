@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "course": {
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "email": {
+      "type": "string",
+      "pattern": "\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*\\.\\w{2,4}"
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 16,
+      "maximum": 100
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "email",
+    "age"
+  ]
+}

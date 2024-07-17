@@ -1,0 +1,20 @@
+[
+  {
+    "name":"Test user One",
+    "course":"QA",
+    "email":"testOne@test.test",
+    "age": 23
+  },
+  {
+    "name":"Test user Two",
+    "course":"AQA",
+    "email":"testTwo@test.test",
+    "age": 23
+  },
+  {
+    "name":"Test user Three",
+    "course":"Dev",
+    "email":"testThree@test.test",
+    "age": 23
+  }
+]
